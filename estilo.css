@@ -1,0 +1,48 @@
+/* Estilos para o site ANNA BELLA OFICIAL */
+
+/* SELETORES */
+
+body {
+	background: #d2d2c1 url('imagens/fundo.png'); /* Utilizamos a cor junto com a imagem de fundo, pois se a imagem não for 
+carregada a cor aparecerá (Prioridade de carregamento para imagens) */
+	font: 16px Arial, Helvetica, sans-serif;
+}
+
+/* Criado um seletor para formatação de todos os links do site */
+a {
+	color: #4b566a;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 5px; /* aplica um espaçamento interno no quadrado do elemento link */
+}
+
+h1 {
+	color: #828271;
+	font-size: 1.2em
+}
+
+/* IDs */
+
+#principal {
+	width: 900px;
+}
+
+#menu {
+	background: #c5c5b2;
+	padding: 18px; /* aplica um espaçamento interno no container */
+}
+
+#conteudo {
+	background: #e8e8d9;
+	padding: 10px;
+}
+
+#rodape {
+	text-align: center;
+}
+
+/* CLASSES */
+
+.img-campanha {
+	border: 10px solid #c3c3ae;
+}
